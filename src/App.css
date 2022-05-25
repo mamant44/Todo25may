@@ -1,0 +1,73 @@
+html {
+    background-color: aliceblue;
+}
+.App {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    font-size: 50px;
+    font-family: 'Merienda One', cursive;
+}
+input {
+    width: 470px;
+    height: 55px;
+    padding-left: 10px;
+    border: 4px solid black;
+    border-radius: 7px 0 0 7px;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Merienda One', cursive;
+}
+button {
+    width: 115px;
+    margin: 0;
+    padding: 0;
+    height: 65px;
+    border: 3px solid black;
+    background: black;
+    color: whitesmoke;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: 'Merienda One', cursive;
+    cursor: pointer;
+}
+form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.item-todo {
+    width: 535px;
+    height: 56px;
+    border: 4px solid black;
+    border-radius: 7px;
+    margin: 25px 0 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Merienda One', cursive;
+    background-color: white;
+}
+.item-delete {
+    width: 50px;
+    height: 50px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.item-text {
+    width: 470px;
+    margin-left: 12px;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
